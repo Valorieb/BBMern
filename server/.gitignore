@@ -1,0 +1,7 @@
+# dependencies
+
+/.pnp
+.pnp.js
+
+# Ignore .env files
+.env
