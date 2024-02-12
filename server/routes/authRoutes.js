@@ -13,7 +13,7 @@ const {
 
 router.use(
   cors({
-    origin: "https://bbmernfront.onrender.com/",
+    origin: "https://bbmernfront.onrender.com",
     credentials: true,
   })
 );
