@@ -33,7 +33,7 @@ app.get("*", (req, res) => {
 });
 
 // API routes
-app.use("/api", require("./routes/authRoutes"));
+app.use("", require("./routes/authRoutes"));
 
 // Start the server on :8000 for the backend
 const port = process.env.PORT || 8000;
